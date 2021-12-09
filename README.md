@@ -26,7 +26,8 @@ http://127.0.0.1:8001/find/mechanik
 
 response 
 
-check example result on www.szymonkowalskipl.github.io
+check example result on
+https://szymonkowalskipl.github.io/
 
 
 
