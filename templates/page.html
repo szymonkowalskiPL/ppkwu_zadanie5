@@ -11,7 +11,7 @@
             Adres: {{item.address}}<br/>
             Telefon: {{item.number}}<br/>
             E-mail: {{item.email}}<br/>
-            <a href="{{ url_for('download',  id=loop.index - 1)}}"> Downlad vCard </a><br/>
+            <a href="{{ url_for('download',  id=loop.index - 1)}}">Pobierz wizytówkę</a><br/>
         </div>
     {% endfor %}
 </body>
