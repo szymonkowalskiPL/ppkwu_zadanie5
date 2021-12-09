@@ -31,7 +31,7 @@ check example result on www.szymonkowalskipl.github.io
 
 
 
-## **2. /download (POST)**
+## **2. /download (GET)**
 	
 Endpoint accepts 1 argument - id of specialist. Returns and download vcf file.
 
