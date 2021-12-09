@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>PanoramaFirm scrapper</title>
+</head>
+<body>
+    {% for item in data %}
+        <div style="border-style: inset; width: 50%;">
+            Firma: {{item.name}}<br/>
+            Adres: {{item.address}}<br/>
+            Telefon: {{item.number}}<br/>
+            E-mail: {{item.email}}<br/>
+            <a href="{{ url_for('download',  id=loop.index - 1)}}"> Downlad vCard </a><br/>
+        </div>
+    {% endfor %}
+</body>
+</html>
